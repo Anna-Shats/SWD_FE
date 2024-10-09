@@ -1,11 +1,16 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Skull from '../components/Skull.vue'
+import HomePage from '../components/HomePage.vue' // new for homepage
 import AppAccounts from '../components/AppAccounts.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
+  {  path: '/HomePage',
+    name: 'HomePage',
+    component: HomePage
+  },
   {
     path: '/skull',
     name: 'Skull',
