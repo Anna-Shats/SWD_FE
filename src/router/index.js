@@ -7,7 +7,7 @@ import AppAccounts from '../components/AppAccounts.vue'
 Vue.use(VueRouter)
 
 const routes = [
-  {  path: '/HomePage',
+  {  path: '/',
     name: 'HomePage',
     component: HomePage
   },
